@@ -1,0 +1,220 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*================================
+Common CSS
+==================================*/
+*{
+    margin:0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    font-family: serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+#scrollUp {
+    background-image:url("../img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-indent: -999999px !important;
+}
+/*================================
+header area
+==================================*/
+header .row a{
+    width:30px;
+    height:30px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+}
+header .row a:last-child{
+    background:#f28133 !important;
+}
+header .row a:hover{
+    background:#f28133 !important;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+header form input[type="text"]{
+    background:#333 !important;
+    color:#fff !important;
+}
+header form input[type="text"]::-webkit-input-placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+}
+header form input[type="text"]::-moz-placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+}
+header form input[type="text"]:-ms-input-placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+}
+header form input[type="text"]::-ms-input-placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+}
+header form input[type="text"]::placeholder{
+    color:#ccc !important;
+    font-size: 14px !important;
+}
+header form input[type="submit"]{
+    background:#3bb1bd;
+    color:#fff !important;
+    font-size: 14px !important;
+}
+/*================================
+nav area
+==================================*/
+nav li a{
+    font-size: 15px;
+    font-weight: 600 !important;
+    font-family: serif;
+}
+nav li a:hover{
+    color:#3bb1bd !important
+}
+/*================================
+hero area
+==================================*/
+#hero{
+    background:rgba(238, 238, 238, 0.678)
+}
+#hero img{
+    height:330px
+}
+#hero h1{
+    color:#444 !important;
+    font-family: serif;
+}
+#hero p{
+    color:#888 !important;
+    font-family: serif;
+    font-size: 20px !important;
+}
+#hero button{
+    color:#fff !important;
+    font-family: serif;
+    background:#3bb1bd
+}
+/*================================
+hero area
+==================================*/
+#card h5{
+    color:#444 !important;
+}
+#card p{
+    color:#888 !important;
+    font-size: 17px !important;
+}
+#card button{
+    color:#fff !important;
+    background:#3bb1bd
+}
+#card img{
+    height:230px
+}
+/*================================
+about area
+==================================*/
+#about h3{
+    color:#777 !important;
+}
+#about img{
+    width:250px !important;
+}
+#about h5{
+    color:#3bb1bd !important;
+}
+#about p{
+    color:#888 !important;
+}
+/*================================
+footer area
+==================================*/
+footer{
+    background:#333;
+    color:#aaa !important;
+}
+footer h4{
+    color:#fff !important;
+    margin-bottom: 1.2rem;
+}
+footer p.email span{
+    color:#3bb1bd !important;
+}
+footer li{
+    color:#3bb1bd !important;
+}
+footer button.m-0{
+    color:#3bb1bd !important;
+    display: block;
+    float:right;
+    font-size: 12px !important;
+}
+footer button.submit{
+    background:#3bb1bd !important;
+    font-size: 13px !important;
+    color:#fff !important;
+    border:0 !important;
+    padding: .4rem .8rem;
+    border-radius: 5px;
+}
+footer input{
+    background:#444 !important;
+    color:#eee !important;
+    border:0 !important
+}
+footer input::-webkit-input-placeholder{
+    color:#ccc !important;
+}
+footer input::-moz-placeholder{
+    color:#ccc !important;
+}
+footer input:-ms-input-placeholder{
+    color:#ccc !important;
+}
+footer input::-ms-input-placeholder{
+    color:#ccc !important;
+}
+footer input::placeholder{
+    color:#ccc !important;
+}
+#copyright{
+    background:#222 !important;
+}
+#copyright p{
+    color:#aaa !important;
+}
+@media screen and (max-width:768px){
+    header .row .col-md-6{
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+    nav ul li a{
+        margin-bottom: 1rem;
+    }
+    #about .row .col h3.w-75{
+        width: 100% !important
+    }
+}
